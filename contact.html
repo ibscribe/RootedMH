@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Rooted Mental Health</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            color: #cbd5e1;
+            font-family: Helvetica, Arial, sans-serif;
+            background:
+                linear-gradient(rgba(6, 24, 15, 0.54), rgba(3, 10, 7, 0.63)),
+                url('contact-background-community.jpg') center / cover fixed;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 64px;
+            padding: 0 32px;
+            background: rgba(3, 10, 7, 0.72);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.12);
+        }
+        .nav-brand { display: flex; align-items: center; height: 26px; padding-right: 14px; color: #fff; font-family: 'Abril Fatface', serif; font-size: 1.58rem; text-decoration: none; border-right: 1px solid rgba(226, 232, 240, 0.35); }
+        .nav-links { display: flex; gap: 24px; }
+        .nav-links a { color: #e2e8f0; font-size: 14px; text-decoration: none; }
+        .nav-links a:hover, .nav-links a[aria-current="page"] { color: #fff; }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            padding: 88px 20px;
+        }
+        .container {
+            width: min(760px, 100%);
+            padding: 48px;
+            background: rgba(5, 20, 12, 0.68);
+            border: 1px solid rgba(226, 232, 240, 0.18);
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+        }
+        h1, h2, p { font-family: 'DM Sans', Arial, sans-serif; font-weight: 400; }
+        h1 { margin: 0 0 20px; color: #f8fafc; font-size: 30px; text-align: center; }
+        h2 { margin: 28px 0 12px; color: #f8fafc; font-size: 20px; }
+        h2:first-of-type { margin-top: 0; }
+        p { margin: 0 0 16px; font-size: 16px; line-height: 1.8; }
+        .contact-card { text-align: center; }
+        .contact-card .intro,
+        .contact-card .closing { text-align: center; }
+        .contact-card h2 { text-align: center; }
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+            margin: 22px 0;
+        }
+        .contact-method {
+            display: block;
+            padding: 20px;
+            color: #f8fafc;
+            text-decoration: none;
+            text-align: center;
+            background: rgba(184, 201, 175, 0.1);
+            border: 1px solid rgba(226, 232, 240, 0.2);
+            border-radius: 8px;
+            transition: background 0.2s ease;
+        }
+        .contact-method:hover { background: rgba(184, 201, 175, 0.18); }
+        .contact-method-label {
+            display: block;
+            margin-bottom: 6px;
+            color: #cbd5e1;
+            font-family: 'DM Sans', Arial, sans-serif;
+            font-size: 14px;
+        }
+        .contact-method-value {
+            display: block;
+            font-family: 'DM Sans', Arial, sans-serif;
+            font-size: 18px;
+        }
+        .notice-section ul {
+            margin: 0;
+            padding-left: 24px;
+        }
+        .notice-section li {
+            margin-bottom: 12px;
+            font-family: 'DM Sans', Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        .contact-link { color: #d9e6d3; text-decoration: underline; text-underline-offset: 3px; }
+        .contact-link:hover { color: #fff; }
+        .site-footer {
+            display: flex;
+            justify-content: center;
+            gap: 28px;
+            padding: 24px 20px;
+            color: #cbd5e1;
+            font-family: 'DM Sans', Arial, sans-serif;
+            font-size: 14px;
+            background: rgba(3, 10, 7, 0.76);
+            border-top: 1px solid rgba(226, 232, 240, 0.12);
+        }
+        .site-footer a { color: inherit; text-decoration: none; }
+        .site-footer a:hover { color: #fff; }
+        @media (max-width: 600px) {
+            nav { padding: 0 14px; }
+            .nav-links { gap: 16px; overflow-x: auto; }
+            .container { padding: 32px 24px; }
+            .contact-methods { grid-template-columns: 1fr; }
+        }
+    </style>
+    <style>
+        body, body *:not(.nav-brand):not(.brand-r) {
+            font-family: 'Comfortaa', Arial, sans-serif !important;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="nav-brand" href="index.html" aria-label="Rooted Mental Health home">R</a>
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="team.html">Team</a>
+            <a href="services.html">Services</a>
+            <a href="https://amal-khan.clientsecure.me/">Client Portal</a>
+            <a href="contact.html" aria-current="page">Contact Us</a>
+        </div>
+    </nav>
+    <main>
+        <article class="container contact-card">
+            <h1>Contact Us</h1>
+            <p class="intro">Beginning therapy is an investment in your well-being and your relationships. Whether you are seeking support through a difficult season or looking to deepen your self-understanding, Rooted Mental Health is here to walk alongside you.</p>
+            <h2>New Clients</h2>
+            <p class="intro">If you're interested in working with us, please schedule an intake using the information below.</p>
+            <div class="contact-methods">
+                <a class="contact-method" href="tel:+16503823814">
+                    <span class="contact-method-label">Call</span>
+                    <span class="contact-method-value">(650) 382-3814</span>
+                </a>
+                <a class="contact-method" href="mailto:info@Rootedmh.one">
+                    <span class="contact-method-label">Email</span>
+                    <span class="contact-method-value">info@Rootedmh.one</span>
+                </a>
+            </div>
+            <p>We will call you at a scheduled time for a free 15-minute discussion about your specific needs and payment options.</p>
+            <p class="closing">We look forward to speaking with you.</p>
+        </article>
+        <article class="container notice-section communication-card">
+            <h2>Important Notice Regarding Communication</h2>
+            <p>Please note that submitting an inquiry, sending an email, or leaving a voicemail does not establish a therapist-client relationship. Confidentiality cannot be fully guaranteed across digital communications, so please limit details to non-sensitive information when contacting us online.</p>
+        </article>
+        <article class="container notice-section emergency-card">
+            <h2>Emergency &amp; Crisis Information</h2>
+            <p><strong>Rooted Mental Health does not provide immediate crisis intervention or emergency services.</strong> If you are experiencing a mental health emergency, feel unsafe, or are in immediate danger of hurting yourself or someone else, please do not wait for a response from this website.</p>
+            <p>Please utilize one of the following resources immediately:</p>
+            <ul>
+                <li><strong>Life-Threatening Emergencies:</strong> Call <strong>911</strong> or go to your nearest hospital emergency room.</li>
+                <li><strong>National Suicide &amp; Crisis Lifeline:</strong> Call or text <strong>988</strong> (available 24/7, free, and confidential).</li>
+                <li><strong>Crisis Text Line:</strong> Text <strong>HOME to 741741</strong> to connect with a crisis counselor 24/7.</li>
+                <li><strong>Santa Clara County Emergency Psychiatric Services (EPS):</strong> Call <strong>(408) 885-6100</strong> or the local 24-hour Suicide &amp; Crisis Line at <strong>(855) 278-4204</strong>.</li>
+            </ul>
+        </article>
+    </main>
+    <footer class="site-footer" aria-label="Footer">
+        <a href="media.html">Media</a>
+<a href="faq.html">FAQs</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="https://www.psychologytoday.com/us/therapists/amal-khan-cupertino-ca/1828316" target="_blank" rel="noopener noreferrer" aria-label="Psychology Today profile" title="Psychology Today" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border:1px solid currentColor;border-radius:50%;font-size:9px;font-weight:600;">PT</a>
+        <a href="https://www.instagram.com/rooted_mental_health" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.counselingcalifornia.com/" target="_blank" rel="noopener noreferrer" aria-label="Find a Therapist through CAMFT" title="Find a Therapist" style="display:inline-flex;align-items:center;justify-content:center;height:22px;padding:0 6px;border:1px solid currentColor;border-radius:11px;font-size:8px;font-weight:600;letter-spacing:.03em;">CAMFT</a>
+    </footer>
+</body>
+</html>

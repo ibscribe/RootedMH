@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team | Rooted Mental Health</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            color: #cbd5e1;
+            font-family: Helvetica, Arial, sans-serif;
+            background:
+                linear-gradient(rgba(6, 24, 15, 0.41), rgba(3, 10, 7, 0.50)),
+                url('team-background.jpg') center / cover fixed;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 64px;
+            padding: 0 32px;
+            background: rgba(3, 10, 7, 0.72);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.12);
+        }
+        .nav-brand { display: flex; align-items: center; height: 26px; padding-right: 14px; color: #fff; font-family: 'Abril Fatface', serif; font-size: 1.58rem; text-decoration: none; border-right: 1px solid rgba(226, 232, 240, 0.35); }
+        .nav-links { display: flex; gap: 24px; }
+        .nav-links a { color: #e2e8f0; font-size: 14px; text-decoration: none; }
+        .nav-links a:hover, .nav-links a[aria-current="page"] { color: #fff; }
+        main { display: flex; justify-content: center; padding: 88px 20px; }
+        .container {
+            width: min(880px, 100%);
+            padding: 48px;
+            text-align: left;
+            background: rgba(5, 20, 12, 0.68);
+            border: 1px solid rgba(226, 232, 240, 0.18);
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+        }
+        h1, p { font-family: 'DM Sans', Arial, sans-serif; font-weight: 400; }
+        h1 { margin: 0 0 24px; color: #f8fafc; font-size: 28px; }
+        .team-name {
+            margin: 0 0 4px;
+            color: #f8fafc;
+            font-family: 'DM Sans', Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: left;
+        }
+        .credentials {
+            margin-bottom: 20px;
+            color: #cbd5e1;
+            font-family: 'DM Sans', Arial, sans-serif;
+            font-size: 14px;
+            text-align: left;
+        }
+        .profile-layout {
+            display: flex;
+            align-items: flex-start;
+            gap: 36px;
+        }
+        .profile-bio { flex: 1; min-width: 0; }
+        .profile-photo {
+            width: 220px;
+            height: 220px;
+            flex: 0 0 220px;
+            object-fit: cover;
+            object-position: center top;
+            border: 1px solid rgba(226, 232, 240, 0.28);
+            border-radius: 50%;
+        }
+        p { margin: 0; font-size: 16px; line-height: 1.8; }
+        p + p { margin-top: 16px; }
+        .site-footer {
+            display: flex;
+            justify-content: center;
+            gap: 28px;
+            padding: 24px 20px;
+            color: #cbd5e1;
+            font-family: 'DM Sans', Arial, sans-serif;
+            font-size: 14px;
+            background: rgba(3, 10, 7, 0.76);
+            border-top: 1px solid rgba(226, 232, 240, 0.12);
+        }
+        .site-footer a { color: inherit; text-decoration: none; }
+        .site-footer a:hover { color: #fff; }
+        @media (max-width: 600px) {
+            nav { padding: 0 14px; }
+            .nav-links { gap: 16px; overflow-x: auto; }
+            .container { padding: 32px 24px; }
+            .profile-layout { flex-direction: column; }
+            .profile-photo { width: 180px; height: 180px; flex-basis: 180px; }
+        }
+    </style>
+    <style>
+        body, body *:not(.nav-brand):not(.brand-r) {
+            font-family: 'Comfortaa', Arial, sans-serif !important;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="nav-brand" href="index.html" aria-label="Rooted Mental Health home">R</a>
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="team.html" aria-current="page">Team</a>
+            <a href="services.html">Services</a>
+            <a href="https://amal-khan.clientsecure.me/">Client Portal</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+    <main>
+        <article class="container">
+            <h1>Team</h1>
+            <div class="profile-layout">
+                <div class="profile-bio">
+                    <h2 class="team-name">Amal Khan</h2>
+                    <p class="credentials">LMFT #16466</p>
+                    <p>As the Founder of RMH, Amal believes that healing begins when you feel seen and heard. She provides integrative, systemic, and culturally responsive care for individuals, couples, children, and families across California, both in-person and via telehealth.</p>
+                    <p>As a Bay Area native and Pakistani American, Amal brings a deep appreciation for intersectional identities to her clinical practice. She specializes in supporting clients through major life transitions, complex relational dynamics, stress management, burnout, and cultural identity navigation. Her therapeutic approach centers on providing a warm, collaborative, and grounded space where clients can cultivate self-insight and build lasting resilience.</p>
+                    <p>In line with her clinical work, Amal stays actively engaged in community advocacy and mental health discourse. She serves as the Editor-in-Chief for the Santa Clara Valley Chapter of CAMFT and sits on the statewide CAMFT Diversity, Equity, and Inclusion (DEI) Committee, working to advance health equity and culturally attuned care across California.</p>
+                    <p>Outside of the world of therapy, Amal is an avid creative who engages with art, music, writing, and travel. These creative mediums naturally enrich her practice, offering a reflective outlet that deepens her exploration of human connection, generational stories, and collective wellness.</p>
+                    <p>Amal offers therapy in English and Urdu.</p>
+                </div>
+                <img class="profile-photo" src="team-profile-amal-bw-bright.png" alt="Black-and-white portrait of Amal Khan">
+            </div>
+        </article>
+    </main>
+    <footer class="site-footer" aria-label="Footer">
+        <a href="media.html">Media</a>
+<a href="faq.html">FAQs</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="https://www.psychologytoday.com/us/therapists/amal-khan-cupertino-ca/1828316" target="_blank" rel="noopener noreferrer" aria-label="Psychology Today profile" title="Psychology Today" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border:1px solid currentColor;border-radius:50%;font-size:9px;font-weight:600;">PT</a>
+        <a href="https://www.instagram.com/rooted_mental_health" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.counselingcalifornia.com/" target="_blank" rel="noopener noreferrer" aria-label="Find a Therapist through CAMFT" title="Find a Therapist" style="display:inline-flex;align-items:center;justify-content:center;height:22px;padding:0 6px;border:1px solid currentColor;border-radius:11px;font-size:8px;font-weight:600;letter-spacing:.03em;">CAMFT</a>
+    </footer>
+</body>
+</html>

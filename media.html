@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media | Rooted Mental Health</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            min-height: 100vh;
+            margin: 0;
+            color: #cbd5e1;
+            font-family: 'Comfortaa', Arial, sans-serif;
+            background:
+                linear-gradient(rgba(6, 18, 14, 0.32), rgba(3, 10, 7, 0.43)),
+                url('media-background.jpg') center / cover fixed;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 64px;
+            padding: 0 32px;
+            background: rgba(3, 10, 7, 0.72);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.12);
+        }
+        .nav-brand { display: flex; align-items: center; height: 26px; padding-right: 14px; color: #fff; font-family: 'Abril Fatface', serif; font-size: 1.58rem; text-decoration: none; border-right: 1px solid rgba(226, 232, 240, 0.35); }
+        .nav-links { display: flex; gap: 24px; }
+        .nav-links a { color: #e2e8f0; font-size: 14px; text-decoration: none; }
+        .nav-links a:hover { color: #fff; }
+        main { display: flex; justify-content: center; padding: 88px 20px; }
+        .container {
+            width: min(760px, 100%);
+            padding: 48px;
+            text-align: center;
+            background: rgba(5, 20, 12, 0.68);
+            border: 1px solid rgba(226, 232, 240, 0.18);
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+        }
+        h1 { margin: 0 0 24px; color: #f8fafc; font-size: 28px; font-weight: 400; }
+        p { margin: 0; font-size: 16px; line-height: 1.8; }
+        .media-sections { margin-top: 32px; text-align: left; }
+        .media-section {
+            padding: 20px 0;
+            border-top: 1px solid rgba(226, 232, 240, 0.18);
+        }
+        .media-section:last-child { border-bottom: 1px solid rgba(226, 232, 240, 0.18); }
+        .media-section h2 { margin: 0; color: #f8fafc; font-size: 20px; font-weight: 400; }
+        .media-section ul { margin: 16px 0 0; padding-left: 22px; }
+        .media-section li { margin-bottom: 10px; font-size: 16px; line-height: 1.7; }
+        .media-section p + p { margin-top: 16px; }
+        .media-section a { color: #e2f0df; text-underline-offset: 3px; }
+        .media-section a:hover { color: #fff; }
+        .site-footer {
+            display: flex;
+            justify-content: center;
+            gap: 28px;
+            padding: 24px 20px;
+            color: #cbd5e1;
+            font-size: 14px;
+            background: rgba(3, 10, 7, 0.76);
+            border-top: 1px solid rgba(226, 232, 240, 0.12);
+        }
+        .site-footer a { color: inherit; text-decoration: none; }
+        .site-footer a:hover { color: #fff; }
+        @media (max-width: 600px) {
+            nav { padding: 0 14px; }
+            .nav-links { gap: 16px; overflow-x: auto; }
+            .container { padding: 32px 24px; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="nav-brand" href="index.html" aria-label="Rooted Mental Health home">R</a>
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="team.html">Team</a>
+            <a href="services.html">Services</a>
+            <a href="https://amal-khan.clientsecure.me/">Client Portal</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+    <main>
+        <article class="container">
+            <h1>Media</h1>
+            <p>A selection of my published writings, professional profiles, and contributions to mental health discourse, systemic care, and community wellness.</p>
+            <div class="media-sections">
+                <section class="media-section">
+                    <h2>Professional Leadership &amp; Community Roles</h2>
+                    <ul>
+                        <li>Founder, Rooted Mental Health</li>
+                        <li><strong>Editor-in-Chief</strong>, <em>Santa Clara Valley Chapter of CAMFT (SVC CAMFT)</em></li>
+                        <li><strong>Committee Member</strong>, <em>Statewide CAMFT Diversity, Equity, and Inclusion (DEI) Committee</em></li>
+                    </ul>
+                </section>
+                <section class="media-section">
+                    <h2>Workshops &amp; Speaking Engagements</h2>
+                    <p>Psychoeducational workshops and speaking engagements centered on mental health, relationship patterns, and culturally responsive care.</p>
+                    <p>For inquiries, please email <a href="mailto:info@Rootedmh.one">info@Rootedmh.one</a>.</p>
+                </section>
+                <section class="media-section">
+                    <h2>Featured Articles &amp; Writing</h2>
+                    <p><a href="https://www.scv-camft.org/page-18374/13594093" target="_blank" rel="noopener noreferrer">When Boundaries Collide: Navigating South Asian Familial Norms in a Western Clinical Context</a> explores how Western therapeutic boundary models can conflict with South Asian collectivist family norms, highlighting the need for culturally attuned clinical approaches that honor interdependence, reduce guilt, and help clients build boundaries that maintain family connections while fostering personal well-being.</p>
+                    <p><a href="https://www.scv-camft.org/Articles/13665980" target="_blank" rel="noopener noreferrer">When Survival Becomes Culture: Trauma, Adaptation, and the Mislabeling of Communities</a> examines how historical trauma and collective survival mechanisms can embed high emotional intensity, interdependence, and hypervigilance into cultural social scripts, emphasizing that therapists must avoid mislabeling these protective adaptations as personality disorders while supporting clients in balancing collective heritage with healthy emotional safety.</p>
+                </section>
+            </div>
+        </article>
+    </main>
+    <footer class="site-footer" aria-label="Footer">
+        <a href="media.html">Media</a>
+<a href="faq.html">FAQs</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="https://www.psychologytoday.com/us/therapists/amal-khan-cupertino-ca/1828316" target="_blank" rel="noopener noreferrer" aria-label="Psychology Today profile" title="Psychology Today" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border:1px solid currentColor;border-radius:50%;font-size:9px;font-weight:600;">PT</a>
+        <a href="https://www.instagram.com/rooted_mental_health" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.counselingcalifornia.com/" target="_blank" rel="noopener noreferrer" aria-label="Find a Therapist through CAMFT" title="Find a Therapist" style="display:inline-flex;align-items:center;justify-content:center;height:22px;padding:0 6px;border:1px solid currentColor;border-radius:11px;font-size:8px;font-weight:600;letter-spacing:.03em;">CAMFT</a>
+    </footer>
+</body>
+</html>
