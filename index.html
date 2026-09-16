@@ -368,8 +368,10 @@
 
         .site-footer {
             display: flex;
+            position: relative;
+            align-items: center;
             justify-content: center;
-            gap: 28px;
+            gap: 12px;
             padding: 24px 20px;
             color: #cbd5e1;
             font-family: 'DM Sans', Arial, sans-serif;
@@ -379,6 +381,8 @@
         }
         .site-footer a { color: inherit; text-decoration: none; }
         .site-footer a:hover { color: #fff; }
+        .site-footer .copyright { white-space: nowrap; font-size: 0.75em; position: absolute; left: 20px; }
+        .site-footer-items { display: flex; gap: 12px; align-items: center; margin: 0 auto; }
 
         @media (max-width: 600px) {
             nav {
@@ -469,13 +473,13 @@
         </div>
     </section>
 
-    <footer class="site-footer" aria-label="Footer">
+    <footer class="site-footer" aria-label="Footer"><span class="copyright">© 2026 Rooted Mental Health. All rights reserved</span><div class="site-footer-items">
         <a href="media.html">Media</a>
 <a href="faq.html">FAQs</a>
         <a href="privacy.html">Privacy Policy</a>
         <a href="https://www.psychologytoday.com/us/therapists/amal-khan-cupertino-ca/1828316" target="_blank" rel="noopener noreferrer" aria-label="Psychology Today profile" title="Psychology Today" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border:1px solid currentColor;border-radius:50%;font-size:9px;font-weight:600;">PT</a>
         <a href="https://www.instagram.com/rooted_mental_health" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
         <a href="https://www.counselingcalifornia.com/" target="_blank" rel="noopener noreferrer" aria-label="Find a Therapist through CAMFT" title="Find a Therapist" style="display:inline-flex;align-items:center;justify-content:center;height:22px;padding:0 6px;border:1px solid currentColor;border-radius:11px;font-size:8px;font-weight:600;letter-spacing:.03em;">CAMFT</a>
-    </footer>
+    </div></footer>
 </body>
 </html>
